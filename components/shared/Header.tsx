@@ -50,7 +50,7 @@ const Header = ({ intialUser }: { intialUser: any }) => {
 
     return (
         <header className='sticky top-0 z-50 w-full border-b border-gray-700 bg-[#101218] backdrop-blur-md'>
-            <div className='container flex h-[64px] items-center justify-between px-4 sm:px-6'>
+            <div className='flex h-[64px] items-center justify-between px-4 sm:px-6'>
                 {/* Left Section: Menu & Logo */}
                 <div className='flex items-center sm:gap-0'>
                     {/* Mobile Menu Toggle */}

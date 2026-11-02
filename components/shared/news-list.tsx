@@ -9,14 +9,6 @@ export const NewsList = ({ symbol }: { symbol: string }) => {
 
   const news = data
 
-  //let visibleNews: MarketNewsArticle[] = []
-
-  // if (data && showAll) {
-  //   visibleNews = data.slice(0, Math.min(20, data.length));
-  // }
-  // else if (data) {
-  //   visibleNews = data.slice(0, Math.min(8, data.length))
-  // }
 
 
   if (isLoading) {
